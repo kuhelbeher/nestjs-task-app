@@ -11,7 +11,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['airbnb-typescript/base', 'prettier', 'prettier/react'],
+  extends: ['airbnb-typescript/base', 'prettier', 'prettier/@typescript-eslint'],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error', prettierOptions],
