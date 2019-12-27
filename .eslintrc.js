@@ -16,5 +16,6 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error', prettierOptions],
     'import/prefer-default-export': 0,
+    'max-classes-per-file': 0,
   },
 };
